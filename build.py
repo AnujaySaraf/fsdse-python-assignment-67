@@ -2,6 +2,6 @@ import numpy as np
 
 
 def solution(t):
-    """
-    Enter code here
-    """
+    return np.asarray(t)
+
+print solution(([8, 4, 6], [1, 2, 3]))
